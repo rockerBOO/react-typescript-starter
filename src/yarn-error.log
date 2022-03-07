@@ -1,0 +1,36 @@
+Arguments: 
+  /home/rockerboo/.nvm/versions/node/v14.18.1/bin/node /usr/bin/yarn init
+
+PATH: 
+  /home/rockerboo/.nvm/versions/node/v14.18.1/bin:/home/rockerboo/bin:/home/rockerboo/.bin:/usr/local/bin:/home/rockerboo/.yarn/bin:/home/rockerboo/go/bin:/home/rockerboo/.cargo/bin:/home/rockerboo/.gem/ruby/2.7.0/bin:/home/rockerboo/.local/share/npm/bin/:/home/rockerboo/.local/bin:/home/rockerboo/.nvm/versions/node/v14.18.1/bin:/home/rockerboo/bin:/home/rockerboo/.bin:/usr/local/bin:/home/rockerboo/.pyenv/shims:/home/rockerboo/.pyenv/bin:/home/rockerboo/.cargo/bin:/home/rockerboo/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/rockerboo/.yarn/bin:/home/rockerboo/go/bin:/home/rockerboo/.cargo/bin:/home/rockerboo/.gem/ruby/2.7.0/bin:/home/rockerboo/.local/share/npm/bin/:/home/rockerboo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/servo
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
