@@ -1,7 +1,11 @@
+---
 name: Tests CI
 
-on: [push, pull_request]
-
+on:
+  pull_request:
+  push:
+    branches:
+      - 'main'
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -18,9 +22,9 @@ jobs:
         if: ${{ success() }}
         run: |
           curl --request POST \
-          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.sha }} \
-          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-          --header 'content-type: application/json' \
+          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.sha }}
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
+          --header 'content-type: application/json'
           --data '{
             "context": "tests",
             "state": "success",
@@ -32,9 +36,9 @@ jobs:
         if: ${{ failure() }}
         run: |
           curl --request POST \
-          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.sha }} \
-          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-          --header 'content-type: application/json' \
+          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.sha }}
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
+          --header 'content-type: application/json'
           --data '{
             "context": "tests",
             "state": "failure",

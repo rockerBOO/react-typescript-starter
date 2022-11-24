@@ -37,7 +37,8 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"test": "jest"
+		"test": "jest",
+		"test:ci": "jest"
 	},
 	"type": "module",
 	"name": "typescript-react-starter",
