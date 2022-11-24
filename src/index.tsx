@@ -1,9 +1,6 @@
 import { createRoot } from "react-dom/client";
+import App from "./app";
 const container = document.getElementById("app");
-
-const App = () => {
-  return <div>Hello world!</div>;
-};
 
 if (container) {
   const root = createRoot(container);
