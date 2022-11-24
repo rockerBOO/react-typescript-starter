@@ -34,8 +34,9 @@
 		"webpack-modules": "^1.0.0"
 	},
 	"scripts": {
-		"dev": "webpack serve --hot --env=development",
-		"build": "webpack --env=production"
+		"dev": "vite dev",
+		"build": "vite build",
+		"test": "jest"
 	},
 	"type": "module",
 	"name": "typescript-react-starter",
