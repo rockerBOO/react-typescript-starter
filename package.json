@@ -10,6 +10,7 @@
 		"@babel/preset-env": "^7.19.3",
 		"@babel/preset-react": "^7.16.7",
 		"@testing-library/react": "^13.4.0",
+		"@tsconfig/recommended": "^1.0.1",
 		"@types/jest": "^29.2.3",
 		"@types/jsdom": "^20",
 		"@types/prettier": "^2",
