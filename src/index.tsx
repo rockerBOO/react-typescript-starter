@@ -1,8 +1,11 @@
-import "style-loader!css-loader!normalize.css";
+import { createRoot } from "react-dom/client";
+const container = document.getElementById("app");
 
-import React from "react";
-import { render } from "react-dom";
+const App = () => {
+  return <div>Hello world!</div>;
+};
 
-const App = () => <div>Hello World</div>;
-
-render(<App />, document.getElementById("app"));
+if (container) {
+  const root = createRoot(container);
+  root.render(<App />);
+}
