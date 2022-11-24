@@ -1,17 +1,16 @@
 # React Starter
 
-React 17 starter
-
+React 18 starter
+- Typescript 4
 - Yarn 3 (node_modules linker)
-- Normalize.css 8
-- Webpack 5
-- React Refresh 0.10.0,
-- Babel 7,
+- Vite 3
 - ESLint 8,
 - Stylelint 14,
-- Jest 27
+- Jest 29
+- Testing Library React 13
+- Prettier 2
 
-This is what I currently like to use as a starter mix to make a web application. Sets up a page with react and webpack.
+This is what I currently like to use as a starter mix to make a web application. Sets up a page with react and vite.
 
 ## Install
 
@@ -27,6 +26,10 @@ yarn dev
 
 ```
 yarn build
+```
+
+```
+yarn test
 ```
 
 
