@@ -1,16 +1,16 @@
-# React Starter
+# React Typescript Starter
 
 React 18 starter
-- Typescript 4
+- Typescript 5
 - Yarn 3 (node_modules linker)
-- Vite 3
+- Vite 4
 - ESLint 8,
-- Stylelint 14,
+- Stylelint 15,
 - Jest 29
-- Testing Library React 13
+- Testing Library React 14
 - Prettier 2
 
-This is what I currently like to use as a starter mix to make a web application. Sets up a page with react and vite.
+This is what I currently like to use as a starter mix to make a web application. Sets up a page with React and Vite, backed with react-refresh. Tests with Jest and @testing-library.
 
 ## Install
 
