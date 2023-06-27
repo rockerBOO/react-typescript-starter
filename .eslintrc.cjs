@@ -6,7 +6,6 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:compat/recommended",
@@ -15,7 +14,7 @@ module.exports = {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
   },
- parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -23,7 +22,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ['@typescript-eslint', "react", "react-hooks"],
+  plugins: ["@typescript-eslint", "react", "react-hooks"],
   root: true,
   rules: {
     "react/jsx-uses-react": "error",
