@@ -1,3 +1,4 @@
+/* eslint-env node */
 module.exports = {
   env: {
     browser: true,
@@ -5,6 +6,8 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
+
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:compat/recommended",
   ],
@@ -12,6 +15,7 @@ module.exports = {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
   },
+ parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -19,11 +23,12 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["react", "react-hooks"],
+  plugins: ['@typescript-eslint', "react", "react-hooks"],
+  root: true,
   rules: {
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-		"react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
   },
   settings: {
     react: {
