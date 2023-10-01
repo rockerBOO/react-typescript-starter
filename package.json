@@ -11,7 +11,7 @@
 		"@types/prettier": "^2.7.3",
 		"@types/react": "^18.2.14",
 		"@types/react-dom": "^18.2.6",
-		"@vitejs/plugin-react": "^4.0.1",
+		"@vitejs/plugin-react": "^4.1.0",
 		"cross-env": "^7.0.3",
 		"eslint": "^8.50.0",
 		"eslint-plugin-compat": "^4.1.4",
