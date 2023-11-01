@@ -1475,10 +1475,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/recommended@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@tsconfig/recommended@npm:1.0.2"
-  checksum: 8dab26157fc9748ff2d090b95f4dbe2aeb592dbdcf90f373f712da5ac54ff24f66193e7ee68fdc45880e7f767cfeb339ef3e9970ca59608ef93225db047f0d16
+"@tsconfig/recommended@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@tsconfig/recommended@npm:1.0.3"
+  checksum: cf2bf93d419e28b98ac82d9587035daf7dc1e0ef9b8db873a7962967d8744df352ebd2986b046911889e989d4f2caec3bf5826a4c8a4b61572d03329fdc56b34
   languageName: node
   linkType: hard
 
@@ -7124,7 +7124,7 @@ __metadata:
   resolution: "typescript-react-starter@workspace:."
   dependencies:
     "@testing-library/react": ^14.0.0
-    "@tsconfig/recommended": ^1.0.2
+    "@tsconfig/recommended": ^1.0.3
     "@types/jest": ^29.5.2
     "@types/jsdom": ^21.1.1
     "@types/prettier": ^3.0.0
