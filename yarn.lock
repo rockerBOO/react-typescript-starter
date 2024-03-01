@@ -1757,12 +1757,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.2.17":
-  version: 18.2.17
-  resolution: "@types/react-dom@npm:18.2.17"
+"@types/react-dom@npm:^18.2.19":
+  version: 18.2.19
+  resolution: "@types/react-dom@npm:18.2.19"
   dependencies:
     "@types/react": "*"
-  checksum: 7a4e704ed4be6e0c3ccd8a22ff69386fe548304bf4db090513f42e059ff4c65f7a427790320051524d6578a2e4c9667bb7a80a4c989b72361c019fbe851d9385
+  checksum: 087a19d8e4c1c0900ec4ac5ddb749a811a38274b25683d233c11755d2895cc6e475e8bf9bea3dee36519769298e078d4c2feab9ab4bd13b26bc2a6170716437e
   languageName: node
   linkType: hard
 
@@ -7694,7 +7694,7 @@ __metadata:
     "@types/jsdom": ^21.1.1
     "@types/prettier": ^3.0.0
     "@types/react": ^18.2.51
-    "@types/react-dom": ^18.2.17
+    "@types/react-dom": ^18.2.19
     "@vitejs/plugin-react": ^4.2.1
     cross-env: ^7.0.3
     eslint: ^8.56.0
