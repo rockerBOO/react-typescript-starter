@@ -9,7 +9,7 @@
 		"@types/jest": "^29.5.12",
 		"@types/jsdom": "^21.1.1",
 		"@types/prettier": "^3.0.0",
-		"@types/react": "^18.2.51",
+		"@types/react": "^18.2.73",
 		"@types/react-dom": "^18.2.19",
 		"@vitejs/plugin-react": "^4.2.1",
 		"cross-env": "^7.0.3",
