@@ -1777,14 +1777,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.51":
-  version: 18.2.51
-  resolution: "@types/react@npm:18.2.51"
+"@types/react@npm:^18.2.73":
+  version: 18.2.73
+  resolution: "@types/react@npm:18.2.73"
   dependencies:
     "@types/prop-types": "*"
-    "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 1ab49e51e6314cefb9a162e9ac3a15a0474c82a0737f12f3a9628ccba555ab6645d2449152e7a5fc3ff650a7139a4718715af2c5ae9bc46b0533e98036706f84
+  checksum: 0921d3e3286f11365e796f01eff4fb64de315c68f569e0bbfdaa7680dc4b774c7e8dc416d72d77f7f16a0c2075048429386a55bbfd43ac507d1dddc8d44142e7
   languageName: node
   linkType: hard
 
@@ -8128,7 +8127,7 @@ __metadata:
     "@types/jest": ^29.5.12
     "@types/jsdom": ^21.1.1
     "@types/prettier": ^3.0.0
-    "@types/react": ^18.2.51
+    "@types/react": ^18.2.73
     "@types/react-dom": ^18.2.19
     "@vitejs/plugin-react": ^4.2.1
     cross-env: ^7.0.3
