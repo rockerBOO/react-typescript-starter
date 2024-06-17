@@ -6912,6 +6912,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-refresh@npm:^0.14.2":
+  version: 0.14.2
+  resolution: "react-refresh@npm:0.14.2"
+  checksum: d80db4bd40a36dab79010dc8aa317a5b931f960c0d83c4f3b81f0552cbcf7f29e115b84bb7908ec6a1eb67720fff7023084eff73ece8a7ddc694882478464382
+  languageName: node
+  linkType: hard
+
 "react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -8148,7 +8155,7 @@ __metadata:
     prettier: ^3.2.5
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-refresh: ^0.14.0
+    react-refresh: ^0.14.2
     stylelint: ^15.10.1
     stylelint-config-recommended: ^12.0.0
     ts-jest: ^29.1.2
