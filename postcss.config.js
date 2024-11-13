@@ -4,12 +4,12 @@ import autoprefixer from "autoprefixer";
 
 export default {
   plugins: [
-    autoprefixer,
-    postcssPresetEnv({
-      features: {},
-    }),
     ...(process.env.NODE_ENV === "production"
       ? [
+          autoprefixer(),
+          postcssPresetEnv({
+            features: {},
+          }),
           cssnano({
             preset: "default",
           }),
