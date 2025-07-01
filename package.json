@@ -13,7 +13,7 @@
 		"@types/jsdom": "^21.1.7",
 		"@types/react": "^18.3.12",
 		"@types/react-dom": "^18.3.1",
-		"@vitejs/plugin-react": "^4.3.3",
+		"@vitejs/plugin-react": "^4.6.0",
 		"autoprefixer": "^10.4.20",
 		"cross-env": "^7.0.3",
 		"cssnano": "^7.0.6",
