@@ -18,7 +18,7 @@
 		"cross-env": "^7.0.3",
 		"cssnano": "^7.0.6",
 		"jsdom": "^26.0.0",
-		"postcss-preset-env": "^10.1.1",
+		"postcss-preset-env": "^10.2.4",
 		"react-refresh": "^0.14.2",
 		"stylelint": "^16.13.2",
 		"stylelint-config-recommended": "^14.0.1",
