@@ -12,12 +12,11 @@
 
 - Typescript 5
 - Yarn 4
-- Vite 5
-- Vitest 2
-- Biome 1
+- Vite 7
+- Vitest 3
+- Biome 2
 - Stylelint 16
 - Testing Library React 16
-
 - CSSNano 7
 - PostCSS preset-env 10
 - Playwright 1
