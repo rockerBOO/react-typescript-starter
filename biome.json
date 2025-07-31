@@ -10,8 +10,8 @@
 		"enabled": true
 	},
 	"files": {
-		"ignoreUnknown": false,
-		"includes": ["**", "!node_modules/**"]
+		"ignoreUnknown": true,
+		"includes": ["**", "!dist/**", "!node_modules/**"]
 	},
 	"formatter": {
 		"enabled": true,
