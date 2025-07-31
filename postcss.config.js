@@ -3,17 +3,17 @@ import cssnano from "cssnano";
 import autoprefixer from "autoprefixer";
 
 export default {
-  plugins: [
-    ...(process.env.NODE_ENV === "production"
-      ? [
-          autoprefixer(),
-          postcssPresetEnv({
-            features: {},
-          }),
-          cssnano({
-            preset: "default",
-          }),
-        ]
-      : []),
-  ],
+	plugins: [
+		...(process.env.NODE_ENV === "production"
+			? [
+					autoprefixer(),
+					postcssPresetEnv({
+						features: {},
+					}),
+					cssnano({
+						preset: "default",
+					}),
+				]
+			: []),
+	],
 };

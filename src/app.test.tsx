@@ -1,11 +1,11 @@
-import App from './app';
-import {render, screen} from '@testing-library/react'
-import { test, expect } from 'vitest';
+import App from "./app";
+import { render, screen } from "@testing-library/react";
+import { test, expect } from "vitest";
 
-test('app', () => {
+test("app", () => {
 	render(<App />);
 
-	const input = screen.getByText(/hello world/i)
+	const input = screen.getByText(/hello world/i);
 
-	expect(input).toBeTruthy()
-})
+	expect(input).toBeTruthy();
+});
