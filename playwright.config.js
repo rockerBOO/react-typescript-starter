@@ -106,7 +106,7 @@ export default defineConfig({
      * Use the preview server on CI for more realistic testing.
      * Playwright will re-use the local server if there is already a dev-server running.
      */
-    command: process.env.CI ? 'npm run preview' : 'yarn dev --host 0.0.0.0',
+    command: process.env.CI ? 'yarn preview --host 0.0.0.0' : 'yarn dev --host 0.0.0.0',
     port: process.env.CI ? 4173 : 5173,
     reuseExistingServer: !process.env.CI,
   },
