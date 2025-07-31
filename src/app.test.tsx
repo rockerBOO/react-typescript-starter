@@ -1,6 +1,6 @@
-import App from "./app";
 import { render, screen } from "@testing-library/react";
-import { test, expect } from "vitest";
+import { expect, test } from "vitest";
+import App from "./app";
 
 test("app", () => {
 	render(<App />);
