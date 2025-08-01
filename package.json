@@ -26,6 +26,9 @@
 		"stylelint-config-recommended": "^17.0.0",
 		"typescript": "^5.8.3",
 		"vite": "^7.0.6",
+		"vite-plugin-biome": "^1.0.12",
+		"vite-plugin-checker": "^0.10.2",
+		"vite-plugin-stylelint": "^6.0.2",
 		"vitest": "^3.2.4"
 	},
 	"license": "MIT",
