@@ -31,7 +31,7 @@
 		"vite-plugin-biome": "^1.0.12",
 		"vite-plugin-checker": "^0.10.2",
 		"vite-plugin-stylelint": "^6.0.2",
-		"vitest": "^3.2.4"
+		"vitest": "^3.2.6"
 	},
 	"license": "MIT",
 	"main": "src/index.tsx",
