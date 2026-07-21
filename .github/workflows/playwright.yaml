@@ -8,6 +8,9 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.55.0-noble
+      options: --user 1001
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
@@ -15,10 +18,10 @@ jobs:
         node-version: lts/*
     - name: Install dependencies
       run: yarn install --immutable
+      env:
+        PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
     - name: Build application
       run: yarn build
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
