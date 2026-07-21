@@ -21,7 +21,7 @@
 - PostCSS preset-env 10
 - Playwright 1
 
-This is what I currently like to use as a starter mix to make a web application. Sets up a page with React and Vite, backed with react-refresh. Tests with Jest and @testing-library.
+This is what I currently like to use as a starter mix to make a web application. Sets up a page with React and Vite, backed with react-refresh. Tests with Vitest and @testing-library.
 
 ## Install
 
@@ -42,7 +42,7 @@ $ yarn install
 ```
 $ yarn dev
 
-  VITE v5.4.11  ready in 118 ms
+  VITE v7.3.5  ready in 118 ms
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
@@ -51,7 +51,7 @@ $ yarn dev
 
 ```
 $ yarn build
-vite v5.4.11 building for production...
+vite v7.3.5 building for production...
 ✓ 31 modules transformed.
 dist/index.html                   0.41 kB │ gzip:  0.28 kB
 dist/assets/index-Cq5YsKkN.css    0.02 kB │ gzip:  0.04 kB
@@ -62,7 +62,7 @@ dist/assets/index-Y3J0mTAw.js   142.47 kB │ gzip: 45.74 kB
 ```
 $ yarn test
 
- DEV  v2.1.5 /home/rockerboo/code/react-typescript-starter
+ DEV  v3.2.6 /home/rockerboo/code/react-typescript-starter
 
  ✓ src/app.test.tsx (1)
    ✓ app
