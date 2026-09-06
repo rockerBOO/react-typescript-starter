@@ -2,23 +2,23 @@
 
 <!--toc:start-->
 - [React Typescript Starter](#react-typescript-starter)
-  - [React 18 starter](#react-18-starter)
+  - [React 19 starter](#react-19-starter)
   - [Install](#install)
   - [Usage](#usage)
   - [Configure](#configure)
 <!--toc:end-->
 
-## React 18 starter
+## React 19 starter
 
-- Typescript 5
+- Typescript 7
 - Yarn 4
-- Vite 7
-- Vitest 3
+- Vite 8
+- Vitest 5
 - Biome 2
-- Stylelint 16
+- Stylelint 17
 - Testing Library React 16
-- CSSNano 7
-- PostCSS preset-env 10
+- CSSNano 9
+- PostCSS preset-env 11
 - Playwright 1
 
 This is what I currently like to use as a starter mix to make a web application. Sets up a page with React and Vite, backed with react-refresh. Tests with Vitest and @testing-library.
@@ -27,14 +27,14 @@ This is what I currently like to use as a starter mix to make a web application.
 
 ```
 $ yarn install
-➤ YN0000: · Yarn 4.5.1
+➤ YN0000: · Yarn 4.18.0
 ➤ YN0000: ┌ Resolution step
 ➤ YN0000: └ Completed
 ➤ YN0000: ┌ Fetch step
-➤ YN0000: └ Completed in 0s 221ms
+➤ YN0000: └ Completed
 ➤ YN0000: ┌ Link step
 ➤ YN0000: └ Completed
-➤ YN0000: · Done in 0s 511ms
+➤ YN0000: · Done in 0s 362ms
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ $ yarn install
 ```
 $ yarn dev
 
-  VITE v7.3.5  ready in 118 ms
+  VITE v8.2.2  ready in 262 ms
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
@@ -51,26 +51,26 @@ $ yarn dev
 
 ```
 $ yarn build
-vite v7.3.5 building for production...
-✓ 31 modules transformed.
-dist/index.html                   0.41 kB │ gzip:  0.28 kB
+vite v8.2.2 building client environment for production...
+✓ 16 modules transformed.
+dist/index.html                   0.40 kB │ gzip:  0.27 kB
 dist/assets/index-Cq5YsKkN.css    0.02 kB │ gzip:  0.04 kB
-dist/assets/index-Y3J0mTAw.js   142.47 kB │ gzip: 45.74 kB
-✓ built in 824ms
+dist/assets/index-CnrYpLd1.js   190.34 kB │ gzip: 59.93 kB
+✓ built in 543ms
 ```
 
 ```
 $ yarn test
 
- DEV  v3.2.6 /home/rockerboo/code/react-typescript-starter
+ RUN  v5.0.0 /home/rockerboo/code/react-typescript-starter
 
  ✓ src/app.test.tsx (1)
    ✓ app
 
  Test Files  1 passed (1)
       Tests  1 passed (1)
-   Start at  11:22:27
-   Duration  562ms (transform 23ms, setup 0ms, collect 87ms, tests 14ms, environment 244ms, prepare 97ms)
+   Start at  01:38:43
+   Duration  650ms (environment 74%, setup 15%, transform 6%, tests 3%, import 1%)
 ```
 
 
