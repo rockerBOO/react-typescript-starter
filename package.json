@@ -27,7 +27,7 @@
 		"stylelint": "^17.15.0",
 		"stylelint-config-recommended": "^18.0.0",
 		"typescript": "^7.0.2",
-		"vite": "^8.2.2",
+		"vite": "^8.2.4",
 		"vite-plugin-biome": "^1.2.0",
 		"vite-plugin-checker": "^0.14.5",
 		"vite-plugin-stylelint": "^6.3.0",
