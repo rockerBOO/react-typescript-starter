@@ -77,7 +77,6 @@ $ yarn test
 ## Configure
 
 Some values in the starter may need to be changed to work well as your project.
-
 - package.json (author, name)
 - src/app.tsx
 - index.html
