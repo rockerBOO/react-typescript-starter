@@ -24,7 +24,7 @@
 		"postcss": "^8.5.31",
 		"postcss-preset-env": "^11.5.1",
 		"react-refresh": "^0.18.0",
-		"stylelint": "^17.15.0",
+		"stylelint": "^17.16.0",
 		"stylelint-config-recommended": "^18.0.0",
 		"typescript": "^7.0.2",
 		"vite": "^8.2.4",
