@@ -10,7 +10,7 @@
 		"@testing-library/dom": "^10.4.2",
 		"@testing-library/jest-dom": "^7.0.1",
 		"@testing-library/react": "^16.3.3",
-		"@testing-library/user-event": "^14.6.7",
+		"@testing-library/user-event": "^14.6.8",
 		"@tsconfig/node22": "^22.0.6",
 		"@tsconfig/recommended": "^1.0.13",
 		"@types/jsdom": "^30.0.0",
